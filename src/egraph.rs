@@ -149,7 +149,7 @@ impl<L: Language, N: Analysis<L>> EGraph<L, N> {
     /// Un-canonical id's can be used to index into this.
     /// In normal circumstances, you should not need to use this.
     pub fn nodes(&self) -> &[L] {
-        &self.nodes
+      &self.nodes
     }
 
     /// Returns `true` if the egraph is empty
